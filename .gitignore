@@ -1,4 +1,4 @@
-Compiled source #
+# Compiled source #
 ###################
 *.com
 *.class
@@ -8,8 +8,24 @@ Compiled source #
 *.lo
 *.la
 *.so
-#auto generated
+# Auto generated
 Makefile.in
 Makefile
 *.log
-
+# Auto generated in Windows environments for NuGet package creation.
+.vs
+!/BuildNugetPackage.vcxproj  # This is a permanent project, not a generated one, so it should not be ignored.
+!/nuget-sample/NugetSample.vcxproj  # This is a permanent project, not a generated one, so it should not be ignored.
+*.vcxproj
+*.vcxproj.filters
+!/nuget-sample/NugetSample.sln  # This is a permanent solution, not a generated one, so it should not be ignored.
+*.sln
+CMakeFiles
+CMakeCache.txt
+Debug
+Release
+Win32
+cmake_install.cmake
+log4cpp.dir
+lib
+*.nupkg
