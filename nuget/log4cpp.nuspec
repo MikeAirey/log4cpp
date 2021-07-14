@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>NuGet package of log4cpp, a C++ logging framework. The repository used to create this package https://github.com/MikeAirey/log4cpp was forked from the official log4cpp project at https://sourceforge.net/p/log4cpp/codegit/. This package is versioned the same as the original framework. The forked repo will remain as thin a wrapper around the official log4cpp repo as possible, adding only what is necessary to produce the NuGet package.</description>
     <releaseNotes>First NuGet package release.</releaseNotes>
-    <copyright>Package copyright Mike Airey &amp; University of Western Australia 2018. Log4cpp framework copyright log4pp project contributors as specified at https://sourceforge.net/projects/log4cpp/.</copyright>
+    <copyright>Package copyright Mike Airey &amp; University of Western Australia 2021. Log4cpp framework copyright log4pp project contributors as specified at https://sourceforge.net/projects/log4cpp/.</copyright>
     <tags>log4cpp C++ native</tags>
   </metadata>
 </package>
