@@ -6,19 +6,19 @@
       <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)\..\lib\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.lib')">
+  <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.lib')">
     <Link>
-      <AdditionalDependencies>$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <!-- <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.dll')"> -->
+  <!-- <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.dll')"> -->
     <!-- <Link> -->
-      <!-- <AdditionalDependencies>$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.dll;%(AdditionalDependencies)</AdditionalDependencies> -->
+      <!-- <AdditionalDependencies>$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.dll;%(AdditionalDependencies)</AdditionalDependencies> -->
     <!-- </Link> -->
   <!-- </ItemDefinitionGroup> -->
-  <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.pdb')">
+  <ItemDefinitionGroup Condition="Exists('$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.pdb')">
     <Link>
-      <ProgramDatabaseFile>$(MSBuildThisFileDirectory)..\lib\native\$(PlatformToolset)\$(Platform)\$(Configuration)\log4cpp.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(MSBuildThisFileDirectory)..\lib\native\v142\$(Platform)\$(Configuration)\log4cpp.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
 </Project>
